@@ -85,6 +85,19 @@ function App() {
           />
         ))}
       </div>
+      <a
+    href="https://wa.me/5491150172848" // Reemplaza por tu número, por ejemplo: 5491122334455
+    className="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Enviar WhatsApp"
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+      alt="WhatsApp"
+      className="whatsapp-icon"
+    />
+  </a>
     </div>
   );
 }
